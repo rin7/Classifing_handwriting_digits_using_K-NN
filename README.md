@@ -13,7 +13,7 @@ on how distance is measured between observations. Distance can be measured with 
 distance or with more exotic metrics such as Manhattan distance and Minkowski distance1.
 The data set is split into a training set and a test set. Both have the same format. In the files, each line is
 one observation (one digit). There are 257 entries on each line, separated by spaces. The first entry is the
-class label for the digit (0–9) and the remaining 256 entries are the pixel values in the 16  16 grayscale
+class label for the digit (0–9) and the remaining 256 entries are the pixel values in the 16 by 16 grayscale
 image of the digit. The pixel values are standardized to the interval [-1; 1]. There are 7291 observations in
 the training file and 2007 observations in the test file.
 
